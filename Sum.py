@@ -36,7 +36,7 @@ with open('sum.csv') as csvfile:
 
             print(i)
 
-            value = results[0][0]
+            value = i[0]
             print('Value')
             print(round(value, 2)) 
 
