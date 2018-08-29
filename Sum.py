@@ -27,8 +27,9 @@ with open('sum.csv') as csvfile:
         print('*****RESULTS')
         print(results)
         print('\n')
-    # for column in newCsv:
-    # Value 
+        
+        # for column in newCsv:
+        # Value 
 
         for i in results:
 
