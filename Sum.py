@@ -9,7 +9,6 @@ with open('sum.csv') as csvfile:
     for row in newCsv:
         
         for line in row:
-
             numbers = line.split('/')
 
             # print(numbers)
