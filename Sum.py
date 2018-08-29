@@ -25,7 +25,7 @@ with open('sum.csv') as csvfile:
         print(round(average, 2))
         print('\n')
 
-        print('*****RESULTS')
+        print('*****RESULTS*****')
         print(results)
         print('\n')
         
