@@ -50,7 +50,7 @@ with open('sum.csv') as csvfile:
             print('Delta 2')
             print(round(delta2, 2)) 
 
-            # Delta 3 (+ || -)
+            # Delta 3
             delta3 = 100 * (float(delta2) / value)
             print('Delta 3')
             print(round(delta3, 2))
