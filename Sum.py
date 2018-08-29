@@ -1,4 +1,5 @@
 import csv, re
+import numpy as np
 
 results = []
 
