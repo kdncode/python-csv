@@ -20,8 +20,7 @@ with open('sum.csv') as csvfile:
             # Average
             average = [sum(x) for x in zip(*results)]
             average = average[0] / 6
-
-            
+  
         print('*****AVERAGE')
         print(round(average, 2))
         print('\n')
