@@ -45,7 +45,7 @@ with open('sum.csv') as csvfile:
             print('Delta 1')
             print(round(delta1, 2)) 
 
-            # Delta 2 (+ || -)
+            # Delta 2
             delta2 = abs(delta1) - 394.60
             print('Delta 2')
             print(round(delta2, 2)) 
