@@ -40,7 +40,7 @@ with open('sum.csv') as csvfile:
             print('Value')
             print(round(value, 2)) 
 
-            # Delta 1 (+ || -)
+            # Delta 1
             delta1 = value - average
             print('Delta 1')
             print(round(delta1, 2)) 
